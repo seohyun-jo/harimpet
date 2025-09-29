@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+/* font */
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+	font-size: 14px;
+	line-height: 1.5;
+	color: #131316;
+	min-width: 1200px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+/* header */
+#header_box {
+    width: 100%;
+    height: 56px;
+    box-sizing: border-box;
+    border-bottom: red 1px solid;
+}
+
+#header {
+    width: 1200px;
+    height: 55px;
+    margin: 0px auto;
+    color: gray;
+    font-weight: 400;
+}
+
+.external_menu {
+    background-color: #e4e4e4;
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 9px 8px;
+    margin-top: 10.4px;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+}
+
+.menu1:hover {
+    background: url(../images/top_external_01.jpg) center;
+    color: rgba(255, 255, 255, 0);
+
+}
+
+.menu2:hover {
+    background: url(../images/top_external_02.jpg) center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.menu3:hover {
+    background: url(../images/top_external_03.jpg) center top 3px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.inner {
+    display: flex;
+}
+
+/* gnb */
+#gnb_box {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-top: 15px;
+    float: left;
+}
+
+.gnb {
+    display: flex;
+    float: right;
+    margin-top: 15px;
+}
+
+.gnb li a {
+    font-size: 13px;
+    color: gray;
+    padding: 10px 0 10px 20px;
+    font-weight: 400;
+}
+
+.gnb li a:hover {
+    color: rgb(80, 80, 80);
+}
+
+#gnb_bottom {
+    height: 60px;
+    border-bottom: 2px solid #000;
+}
+
+#gnb_box2 {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.gnb2 {
+    display: flex;
+    float: left;
+    margin-top: 20px;
+}
+
+.gnb2 li a {
+    font-size: 17px;
+    padding: 20px 50px 20px 0;
+    font-weight: 500;
+}
+
+.gnb2 li a:hover {
+    color: rgb(160, 107, 27);
+}
+
+.icon_gnb {
+    display: flex;
+    float: right;
+    margin-top: 20px;
+}
+
+.icon_gnb li a {
+    padding: 0 0 0 40px;
+}
+
+/* 상품 주문창 */
+#product {
+	width: 1200px;
+	margin: 90px auto 0;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.right{
+    margin-right: 70px;
+}
+
+.right h1 {
+	font-weight: 500;
+	font-size: 27px;
+}
+
+.right h2 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 30px;
+    color: rgb(197, 0, 0);
+}
+
+.review {
+    font-size: 14px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #ddd;
+}
+
+.star {
+    width: 12px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+
+.selectbox{
+	margin: 20px 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+.selectbox th{
+	text-align: left;
+	font-weight: 400;
+}
+.selectbox th, .selectbox td{
+	padding: 10px 0;
+}
+.selectbox select{
+	outline: none;
+	width: 100%;
+	padding: 10px;
+}
+
+.order {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.order li{
+	flex: 1;
+	text-align: center;
+}
+
+.order li a {
+	border: 1px #131316 solid;
+	color: #131316;
+	display: block;
+	padding: 20px 0;
+}
+
+.order li:nth-child(1) a {
+	background-color: rgb(211, 0, 0);
+	color: #fff;
+    border: rgb(211, 0, 0) 1px solid;
+}
+
+.order li a:hover {
+	background-color: rgb(211, 0, 0);
+	color: #fff;
+    border: rgb(211, 0, 0) 1px solid;
+}
+
+
+/* 상세페이지 */
+.main {
+	width: 860px;
+	margin: 180px auto;
+}
+
+/* footer */
+#footer_wrap {
+    height: 350px;
+    margin-top: 200px;
+    background-color: #f1f1f1;
+    color: gray;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#footer_gnb {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 18px;
+    color: #222;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer li {
+    padding-right: 100px;
+}
+
+p {
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.red {
+    color: rgb(211, 0, 0);
+    font-size: 25px;
+}
+
+.a_tag {
+    margin-top: 20px;
+}
+
+.a_tag li {
+    margin-bottom: 8px;
+}
+
+.a_tag li a:hover {
+    color: rgb(75, 75, 75);
+}
+
+.footer_icon {
+    display: flex;
+    float: right;
+}
+
+.footer_icon li a {
+    padding-left: 10px;
+    margin-bottom: 80px;
+}
+
+.footer_icon li a:hover {
+    opacity: 0.9;
+}
+
+/* 탑 버튼 */
+#top_button img {
+    position: fixed;
+    top: 830px;
+    right: 70px;
+    width: 70px;
+}
